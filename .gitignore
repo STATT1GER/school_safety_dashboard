@@ -12,3 +12,19 @@ data/accident_data_all.xlsx
 data/accident_data.xlsx
 data/accident_reward_data.xlsx
 data/raw/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Runtime/user data
+data/*.db
+data/uploads/
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
