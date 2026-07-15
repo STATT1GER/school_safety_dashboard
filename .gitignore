@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit 보안정보
+.streamlit/secrets.toml
+
+# 학교안전사고 원자료
+data/accident_data_all.xlsx
+data/accident_data.xlsx
+data/accident_reward_data.xlsx
+data/raw/
